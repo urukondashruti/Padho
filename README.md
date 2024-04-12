@@ -72,3 +72,39 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ###
 
 in the above project i have used React Context,React Hooks ,React-Boostrap,third-part-packages,props.
+### App.js file
+Imports: The code imports necessary components and modules from the React library and other custom components. It includes components like BrowserRouter, Routes, and Route from react-router-dom, as well as custom components like MainContent, Signup, Login, etc.
+
+Component Definition: The App class is defined, extending React.Component.
+
+State: The App component has a state that includes two properties: searchvalue and activeValue. These properties manage the search value and the active tab/section of the application, respectively.
+
+Event Handlers: Two event handler methods are defined: onChangeActive and onchangeSearch. These methods are responsible for updating the state properties activeValue and searchvalue respectively, based on user interactions.
+
+Render Method: The render() method renders the JSX content of the component.
+
+Context Provider: The component wraps its JSX content inside a CoursesContext.Provider. This suggests that the application uses a context named CoursesContext to provide certain data and functions to its child components.
+
+Routing Setup: The <BrowserRouter> component from react-router-dom is used to set up the routing functionality. Inside it, <Routes> component is used to define routes for different URLs. Each <Route> component maps a specific URL path to a corresponding component that should be rendered when the URL matches.
+
+Route Configuration: Each <Route> component defines a specific route path using the path attribute and specifies the component that should be rendered when that route is matched using the element attribute.
+
+Export: The App component is exported as the default export of the module, making it available for use in other parts of the application.
+### 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
